@@ -11,13 +11,13 @@ final class MyAlamofireManger {
     
     
     // 로거 설정
-    // let monitors =
+    let monitors = [MyLogger()]
     
     // 세션 설정
     var session: Session
     
     private init() {
-        session = Session(interceptor: interceptors)
+        session = Session(interceptor: interceptors, eventMonitors: monitors)
     }
     
 }
