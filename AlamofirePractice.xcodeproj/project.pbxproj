@@ -10,6 +10,7 @@
 		2C422C1C2913675E0015CE9D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C422C1B2913675E0015CE9D /* Constants.swift */; };
 		2C422C1E29139F8C0015CE9D /* MyAlamofireManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C422C1D29139F8C0015CE9D /* MyAlamofireManger.swift */; };
 		2C422C212913A1910015CE9D /* BaseInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C422C202913A1910015CE9D /* BaseInterceptor.swift */; };
+		2C422C232913AC090015CE9D /* MyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C422C222913AC090015CE9D /* MyLogger.swift */; };
 		2CDEAA92290C02BE00464E30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEAA91290C02BE00464E30 /* AppDelegate.swift */; };
 		2CDEAA94290C02BE00464E30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEAA93290C02BE00464E30 /* SceneDelegate.swift */; };
 		2CDEAA96290C02BE00464E30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEAA95290C02BE00464E30 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 		2C422C1B2913675E0015CE9D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2C422C1D29139F8C0015CE9D /* MyAlamofireManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlamofireManger.swift; sourceTree = "<group>"; };
 		2C422C202913A1910015CE9D /* BaseInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInterceptor.swift; sourceTree = "<group>"; };
+		2C422C222913AC090015CE9D /* MyLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLogger.swift; sourceTree = "<group>"; };
 		2CDEAA8E290C02BE00464E30 /* AlamofirePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofirePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDEAA91290C02BE00464E30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CDEAA93290C02BE00464E30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				2C422C1D29139F8C0015CE9D /* MyAlamofireManger.swift */,
 				2C422C202913A1910015CE9D /* BaseInterceptor.swift */,
+				2C422C222913AC090015CE9D /* MyLogger.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			files = (
 				2C422C1E29139F8C0015CE9D /* MyAlamofireManger.swift in Sources */,
 				2CDEAA96290C02BE00464E30 /* ViewController.swift in Sources */,
+				2C422C232913AC090015CE9D /* MyLogger.swift in Sources */,
 				2C422C212913A1910015CE9D /* BaseInterceptor.swift in Sources */,
 				2CDEAA92290C02BE00464E30 /* AppDelegate.swift in Sources */,
 				2CDEAA94290C02BE00464E30 /* SceneDelegate.swift in Sources */,

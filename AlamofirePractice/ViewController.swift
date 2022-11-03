@@ -19,7 +19,9 @@ class ViewController: UIViewController {
         // 파라미터 사용
         let queryParam = ["query" : search, "client_id" : API.CLIENT_ID]
         
-        AF.request(url, method: .get, parameters: queryParam).response(completionHandler: { response in debugPrint(response)})
+//        AF.request(url, method: .get, parameters: queryParam).response(completionHandler: { response in debugPrint(response)})
+        
+        MyAlamofireManger.shared.session.request(url).responseString(completionHandler: { response in debugPrint(response) })
     }
     
 }
