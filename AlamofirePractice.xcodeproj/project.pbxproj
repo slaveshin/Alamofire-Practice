@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2C422C1C2913675E0015CE9D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C422C1B2913675E0015CE9D /* Constants.swift */; };
+		2C422C1E29139F8C0015CE9D /* MyAlamofireManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C422C1D29139F8C0015CE9D /* MyAlamofireManger.swift */; };
 		2CDEAA92290C02BE00464E30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEAA91290C02BE00464E30 /* AppDelegate.swift */; };
 		2CDEAA94290C02BE00464E30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEAA93290C02BE00464E30 /* SceneDelegate.swift */; };
 		2CDEAA96290C02BE00464E30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEAA95290C02BE00464E30 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		2C422C1B2913675E0015CE9D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2C422C1D29139F8C0015CE9D /* MyAlamofireManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlamofireManger.swift; sourceTree = "<group>"; };
 		2CDEAA8E290C02BE00464E30 /* AlamofirePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofirePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDEAA91290C02BE00464E30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CDEAA93290C02BE00464E30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,8 +69,9 @@
 			children = (
 				2CDEAA91290C02BE00464E30 /* AppDelegate.swift */,
 				2CDEAA93290C02BE00464E30 /* SceneDelegate.swift */,
-				2CDEAA95290C02BE00464E30 /* ViewController.swift */,
 				2C422C1B2913675E0015CE9D /* Constants.swift */,
+				2C422C1D29139F8C0015CE9D /* MyAlamofireManger.swift */,
+				2CDEAA95290C02BE00464E30 /* ViewController.swift */,
 				2CDEAA97290C02BE00464E30 /* Main.storyboard */,
 				2CDEAA9A290C02C000464E30 /* Assets.xcassets */,
 				2CDEAA9C290C02C000464E30 /* LaunchScreen.storyboard */,
@@ -209,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C422C1E29139F8C0015CE9D /* MyAlamofireManger.swift in Sources */,
 				2CDEAA96290C02BE00464E30 /* ViewController.swift in Sources */,
 				2CDEAA92290C02BE00464E30 /* AppDelegate.swift in Sources */,
 				2CDEAA94290C02BE00464E30 /* SceneDelegate.swift in Sources */,
